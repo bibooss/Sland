@@ -1,0 +1,8 @@
+{
+  "name": "Sland",
+  "app_id": "36a1ff75",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
