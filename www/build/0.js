@@ -3842,7 +3842,7 @@ var LoginPage = (function () {
         this.navParams = navParams;
     }
     LoginPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad LoginPage');
+        console.log('ionViewDidLoad LoinPage');
     };
     LoginPage.prototype.NavHome = function () {
         this.password = "";
@@ -3852,9 +3852,10 @@ var LoginPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-login',template:/*ion-inline-start:"C:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="danger">\n\n    <ion-title >\n\n\n\n      LOGIN\n\n\n\n    </ion-title>\n\n\n\n\n\n\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="back" padding >\n\n\n\n\n\n<div class="example-card  w3-card-4 w3-round w3-white w3-animate-zoom">\n\n\n\n    <ion-list>\n\n\n\n        <ion-item >\n\n          <ion-label stacked>Username/Email</ion-label>\n\n\n\n          <ion-input type="text" name="username"  [(ngModel)]="username" ></ion-input>\n\n        </ion-item>\n\n<br>\n\n\n\n        <ion-item >\n\n\n\n           <ion-label stacked>Password</ion-label>\n\n\n\n          <ion-input type="password" name="password"  [(ngModel)]="password" ></ion-input>\n\n\n\n\n\n\n\n        </ion-item>\n\n\n\n\n\n\n\n      </ion-list>\n\n\n\n      <br>\n\n\n\n      <button style="animation-duration: 1s; margin-left:25%;margin-right: 25%;width:50%; margin-top:10px;" class="w3-animate-bottom" ion-button color="danger" outline (click)="NavHome()" item-center > LOGIN </button>\n\n\n\n    <br>\n\n\n\n\n\n\n\n</div>\n\n\n\n\n\n\n\n\n\n\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"C:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\login\login.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
     ], LoginPage);
     return LoginPage;
+    var _a, _b;
 }());
 
 //# sourceMappingURL=login.js.map

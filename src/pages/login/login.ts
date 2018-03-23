@@ -29,7 +29,7 @@ export class LoginPage {
 
   ionViewDidLoad() {
 
-    console.log('ionViewDidLoad LoginPage');
+    console.log('ionViewDidLoad LoinPage');
 
   }
 
