@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the AddPlotPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
-@IonicPage()
+
+@IonicPage({
+name:'add-plot'
+})
+
 @Component({
   selector: 'page-add-plot',
   templateUrl: 'add-plot.html',
@@ -16,6 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class AddPlotPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
   }
 
   ionViewDidLoad() {
