@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 274:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,8 +8,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomePageModule", function() { return HomePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(284);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_material_card__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_material_card__ = __webpack_require__(287);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -44,7 +44,7 @@ var HomePageModule = (function () {
 
 /***/ }),
 
-/***/ 277:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -106,17 +106,17 @@ var HomePageModule = (function () {
 /* unused harmony export NOV */
 /* unused harmony export DEC */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_cdk_bidi__ = __webpack_require__(281);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tslib__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_cdk_coercion__ = __webpack_require__(278);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_cdk_bidi__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tslib__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_cdk_coercion__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_common__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_cdk_platform__ = __webpack_require__(279);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_cdk_keycodes__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_common__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_cdk_platform__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_cdk_keycodes__ = __webpack_require__(289);
 /**
  * @license
  * Copyright Google LLC All Rights Reserved.
@@ -2872,7 +2872,7 @@ var DEC = 11;
 
 /***/ }),
 
-/***/ 278:
+/***/ 285:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2962,7 +2962,7 @@ function coerceArray(value) {
 
 /***/ }),
 
-/***/ 279:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3160,7 +3160,7 @@ var PlatformModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 280:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3180,7 +3180,7 @@ var PlatformModule = /** @class */ (function () {
 /* unused harmony export MatCardTitleGroup */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MatCardModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material_core__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material_core__ = __webpack_require__(284);
 /**
  * @license
  * Copyright Google LLC All Rights Reserved.
@@ -3529,7 +3529,7 @@ var MatCardModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 281:
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3538,7 +3538,7 @@ var MatCardModule = /** @class */ (function () {
 /* unused harmony export Dir */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BidiModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(31);
 /**
  * @license
  * Copyright Google LLC All Rights Reserved.
@@ -3732,7 +3732,7 @@ var BidiModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 282:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3806,7 +3806,7 @@ var COMMA = 188;
 
 /***/ }),
 
-/***/ 284:
+/***/ 292:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3858,7 +3858,7 @@ var HomePage = (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"c:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar  color="danger">\n    <ion-title>\n      Ionic Blank\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content >\n\n        <ion-grid>\n\n            <ion-row>\n\n              <ion-col  *ngFor="let co of location; let i = index"  (click)="showMap(co)"  col-0 col-sm-6 col-md-6 col-lg-4 col-xl-3  >\n                  <ion-card class="w3-round-large w3-animate-top ani ">\n                      <img src="https://maps.googleapis.com/maps/api/staticmap?center={{co.lat}},{{co.log}}&zoom=12&size=800x800&key=AIzaSyDYZGeTrv_x_gE4r7Smi7vR3q5980cpee8"/>\n                      <ion-card-content>\n\n                        <ion-card-title>\n                            {{co.name}}\n                          </ion-card-title>\n\n                      </ion-card-content>\n\n\n                    </ion-card>\n              </ion-col>\n\n\n\n            </ion-row>\n          </ion-grid>\n\n</ion-content>\n'/*ion-inline-end:"c:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar  color="danger">\n\n    <ion-title>\n\n      Ionic Blank\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content >\n\n\n\n        <ion-grid>\n\n\n\n            <ion-row>\n\n\n\n      <ion-col  *ngFor="let co of location; let i = index"  (click)="showMap(co)"  col-0 col-sm-6 col-md-6 col-lg-4 col-xl-3  >\n\n          <ion-card class="w3-round-large w3-animate-top ani ">\n\n              <img src="https://maps.googleapis.com/maps/api/staticmap?center={{co.lat}},{{co.log}}&zoom=12&size=800x800&key=AIzaSyDYZGeTrv_x_gE4r7Smi7vR3q5980cpee8"/>\n\n              <ion-card-content>\n\n\n\n                <ion-card-title>\n\n                    {{co.name}}\n\n                  </ion-card-title>\n\n\n\n\n\n              </ion-card-content>\n\n\n\n\n\n            </ion-card>\n\n      </ion-col>\n\n\n\n\n\n\n\n            </ion-row>\n\n          </ion-grid>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], HomePage);
