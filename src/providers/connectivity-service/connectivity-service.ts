@@ -1,3 +1,5 @@
+
+
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
@@ -13,5 +15,17 @@ export class ConnectivityServiceProvider {
   constructor(public http: HttpClient) {
     console.log('Hello ConnectivityServiceProvider Provider');
   }
+
+
+
+  //check if device has internet
+
+isOnline(){
+
+
+
+}
+
+
 
 }

@@ -12,20 +12,21 @@
 
             <ion-row>
 
-              <ion-col  *ngFor="let co of location; let i = index"  (click)="showMap(co)"  col-0 col-sm-6 col-md-6 col-lg-4 col-xl-3  >
-                  <ion-card class="w3-round-large w3-animate-top ani ">
-                      <img src="https://maps.googleapis.com/maps/api/staticmap?center={{co.lat}},{{co.log}}&zoom=12&size=800x800&key=AIzaSyDYZGeTrv_x_gE4r7Smi7vR3q5980cpee8"/>
-                      <ion-card-content>
+      <ion-col  *ngFor="let co of location; let i = index"  (click)="showMap(co)"  col-0 col-sm-6 col-md-6 col-lg-4 col-xl-3  >
+          <ion-card class="w3-round-large w3-animate-top ani ">
+              <img src="https://maps.googleapis.com/maps/api/staticmap?center={{co.lat}},{{co.log}}&zoom=12&size=800x800&key=AIzaSyDYZGeTrv_x_gE4r7Smi7vR3q5980cpee8"/>
+              <ion-card-content>
 
-                        <ion-card-title>
-                            {{co.name}}
-                          </ion-card-title>
-
-                      </ion-card-content>
+                <ion-card-title>
+                    {{co.name}}
+                  </ion-card-title>
 
 
-                    </ion-card>
-              </ion-col>
+              </ion-card-content>
+
+
+            </ion-card>
+      </ion-col>
 
 
 
