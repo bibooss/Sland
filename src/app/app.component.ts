@@ -1,13 +1,16 @@
-import { Component } from '@angular/core';
+import { Component  } from '@angular/core'; //ViewChild
 import { Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+//import { NavController } from 'ionic-angular';
 
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
+
+//@ViewChild('myNav') nav: NavController
 
   rootPage:any = 'login';
 

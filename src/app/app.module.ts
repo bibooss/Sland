@@ -7,6 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { MyApp } from './app.component';
+import { ConnectivityServiceProvider } from '../providers/connectivity-service/connectivity-service';
 
 //import { HomePageModule } from '../pages/home/home.module';
 
@@ -30,7 +31,8 @@ import { MyApp } from './app.component';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    ConnectivityServiceProvider
   ]
 })
 export class AppModule {}

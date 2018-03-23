@@ -17,8 +17,6 @@ export class HomePage {
 
 locations:any;
 
-
-
 location = [
   {name:"kiambu",
 lat:-25.363,log:131.044,
@@ -53,11 +51,13 @@ course:any;
 
   }
 
+
+
  showMap(co){
 
-console.log(co.name);
+  console.log(co.name);
 
-  this.navCtrl.push('viewer');
+   this.navCtrl.push('viewer');
 
   }
 
