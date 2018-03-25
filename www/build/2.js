@@ -170,7 +170,7 @@ var Geolocation = (function (_super) {
         __metadata("design:returntype", Promise)
     ], Geolocation.prototype, "getCurrentPosition", null);
     Geolocation = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["d" /* Plugin */])({
+        Object(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["e" /* Plugin */])({
             pluginName: 'Geolocation',
             plugin: 'cordova-plugin-geolocation',
             pluginRef: 'navigator.geolocation',
@@ -181,7 +181,7 @@ var Geolocation = (function (_super) {
         })
     ], Geolocation);
     return Geolocation;
-}(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["c" /* IonicNativePlugin */]));
+}(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["d" /* IonicNativePlugin */]));
 
 //# sourceMappingURL=index.js.map
 
@@ -220,9 +220,10 @@ var AddPlotPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
             selector: 'page-add-plot',template:/*ion-inline-start:"C:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\add-plot\add-plot.html"*/'<!--\n\n  Generated template for the AddPlotPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>addPlot</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\add-plot\add-plot.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_0__ionic_native_geolocation__["a" /* Geolocation */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_0__ionic_native_geolocation__["a" /* Geolocation */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__ionic_native_geolocation__["a" /* Geolocation */]) === "function" && _c || Object])
     ], AddPlotPage);
     return AddPlotPage;
+    var _a, _b, _c;
 }());
 
 //# sourceMappingURL=add-plot.js.map

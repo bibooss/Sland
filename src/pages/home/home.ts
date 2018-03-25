@@ -1,3 +1,4 @@
+import { ConnectivityServiceProvider } from './../../providers/connectivity-service/connectivity-service';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -46,11 +47,17 @@ center:20
 
 course:any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private conn: ConnectivityServiceProvider) {
 
 
   }
 
+ionViewDidLoad(){
+
+console.log("home loaded")
+this.conn.isOnline();
+
+}
 
 
  showMap(co){
@@ -60,5 +67,7 @@ course:any;
    this.navCtrl.push('viewer');
 
   }
+
+
 
 }
