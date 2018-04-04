@@ -5,7 +5,6 @@ import { NgModule } from '@angular/core';
 import { IonicPageModule, Platform } from 'ionic-angular';
 import { HomePage } from './home';
 import {MatCardModule} from '@angular/material/card';
-import { ConnectivityServiceProvider } from './../../providers/connectivity-service/connectivity-service';
 import { HttpClientModule } from '@angular/common/http';
 
 
@@ -22,7 +21,7 @@ import { HttpClientModule } from '@angular/common/http';
     HomePage
   ],
 
-  providers:[ ConnectivityServiceProvider, Network, Platform]
+  providers:[ Network, Platform]
 })
 export class HomePageModule {
 
