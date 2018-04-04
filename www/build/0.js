@@ -1,17 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 205:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var ArrayObservable_1 = __webpack_require__(100);
-exports.of = ArrayObservable_1.ArrayObservable.of;
-//# sourceMappingURL=of.js.map
-
-/***/ }),
-
-/***/ 282:
+/***/ 275:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -19,9 +8,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoginPageModule", function() { return LoginPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(98);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login__ = __webpack_require__(293);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_material_card__ = __webpack_require__(287);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material_form_field__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__login__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_material_card__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material_form_field__ = __webpack_require__(296);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(15);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -61,7 +50,7 @@ var LoginPageModule = (function () {
 
 /***/ }),
 
-/***/ 284:
+/***/ 277:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -123,17 +112,17 @@ var LoginPageModule = (function () {
 /* unused harmony export NOV */
 /* unused harmony export DEC */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_cdk_bidi__ = __webpack_require__(288);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tslib__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_cdk_coercion__ = __webpack_require__(285);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(32);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_cdk_bidi__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_tslib__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_cdk_coercion__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_Subject__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_common__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_cdk_platform__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_cdk_keycodes__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_common__ = __webpack_require__(39);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_cdk_platform__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_cdk_keycodes__ = __webpack_require__(283);
 /**
  * @license
  * Copyright Google LLC All Rights Reserved.
@@ -2889,7 +2878,7 @@ var DEC = 11;
 
 /***/ }),
 
-/***/ 285:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2979,7 +2968,7 @@ function coerceArray(value) {
 
 /***/ }),
 
-/***/ 286:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3177,7 +3166,18 @@ var PlatformModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 287:
+/***/ 280:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var ArrayObservable_1 = __webpack_require__(195);
+exports.of = ArrayObservable_1.ArrayObservable.of;
+//# sourceMappingURL=of.js.map
+
+/***/ }),
+
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3197,7 +3197,7 @@ var PlatformModule = /** @class */ (function () {
 /* unused harmony export MatCardTitleGroup */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MatCardModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material_core__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_material_core__ = __webpack_require__(277);
 /**
  * @license
  * Copyright Google LLC All Rights Reserved.
@@ -3546,7 +3546,7 @@ var MatCardModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 288:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3555,7 +3555,7 @@ var MatCardModule = /** @class */ (function () {
 /* unused harmony export Dir */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BidiModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(39);
 /**
  * @license
  * Copyright Google LLC All Rights Reserved.
@@ -3749,7 +3749,7 @@ var BidiModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 289:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3823,7 +3823,7 @@ var COMMA = 188;
 
 /***/ }),
 
-/***/ 293:
+/***/ 295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3863,17 +3863,16 @@ var LoginPage = (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-login',template:/*ion-inline-start:"C:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\login\login.html"*/'<!--\n\n  Generated template for the LoginPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar color="danger">\n\n    <ion-title >\n\n\n\n      LOGIN\n\n\n\n    </ion-title>\n\n\n\n\n\n\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content class="back" padding >\n\n\n\n\n\n<div class="example-card  w3-card-4 w3-round w3-white w3-animate-zoom">\n\n\n\n    <ion-list>\n\n\n\n        <ion-item >\n\n          <ion-label stacked>Username/Email</ion-label>\n\n\n\n          <ion-input type="text" name="username"  [(ngModel)]="username" ></ion-input>\n\n        </ion-item>\n\n<br>\n\n\n\n        <ion-item >\n\n\n\n           <ion-label stacked>Password</ion-label>\n\n\n\n          <ion-input type="password" name="password"  [(ngModel)]="password" ></ion-input>\n\n\n\n\n\n\n\n        </ion-item>\n\n\n\n\n\n\n\n      </ion-list>\n\n\n\n      <br>\n\n\n\n      <button style="animation-duration: 1s; margin-left:25%;margin-right: 25%;width:50%; margin-top:10px;" class="w3-animate-bottom" ion-button color="danger" outline (click)="NavHome()" item-center > LOGIN </button>\n\n\n\n    <br>\n\n\n\n\n\n\n\n</div>\n\n\n\n\n\n\n\n\n\n\n\n</ion-content>\n\n\n\n'/*ion-inline-end:"C:\Users\BABOOZ\Documents\NetBeansProjects\IONIC PROJECTS\Sland\src\pages\login\login.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]) === "function" && _b || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
     ], LoginPage);
     return LoginPage;
-    var _a, _b;
 }());
 
 //# sourceMappingURL=login.js.map
 
 /***/ }),
 
-/***/ 294:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3892,19 +3891,19 @@ var LoginPage = (function () {
 /* unused harmony export MatSuffix */
 /* unused harmony export MatLabel */
 /* unused harmony export matFormFieldAnimations */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__(31);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_common__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_cdk_platform__ = __webpack_require__(286);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_tslib__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_cdk_coercion__ = __webpack_require__(285);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material_core__ = __webpack_require__(284);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_fromEvent__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_cdk_platform__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_tslib__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_cdk_coercion__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material_core__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_fromEvent__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_observable_fromEvent___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_observable_fromEvent__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operators_startWith__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operators_startWith__ = __webpack_require__(297);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_operators_startWith___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_operators_startWith__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operators_take__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operators_take__ = __webpack_require__(306);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rxjs_operators_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_rxjs_operators_take__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_animations__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_animations__ = __webpack_require__(104);
 /**
  * @license
  * Copyright Google LLC All Rights Reserved.
@@ -4661,16 +4660,16 @@ var MatFormFieldModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 295:
+/***/ 297:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var ArrayObservable_1 = __webpack_require__(100);
-var ScalarObservable_1 = __webpack_require__(198);
+var ArrayObservable_1 = __webpack_require__(195);
+var ScalarObservable_1 = __webpack_require__(196);
 var EmptyObservable_1 = __webpack_require__(99);
-var concat_1 = __webpack_require__(296);
-var isScheduler_1 = __webpack_require__(101);
+var concat_1 = __webpack_require__(298);
+var isScheduler_1 = __webpack_require__(100);
 /* tslint:enable:max-line-length */
 /**
  * Returns an Observable that emits the items you specify as arguments before it begins to emit
@@ -4716,15 +4715,15 @@ exports.startWith = startWith;
 
 /***/ }),
 
-/***/ 296:
+/***/ 298:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var isScheduler_1 = __webpack_require__(101);
-var of_1 = __webpack_require__(205);
-var from_1 = __webpack_require__(297);
-var concatAll_1 = __webpack_require__(303);
+var isScheduler_1 = __webpack_require__(100);
+var of_1 = __webpack_require__(280);
+var from_1 = __webpack_require__(299);
+var concatAll_1 = __webpack_require__(305);
 /* tslint:enable:max-line-length */
 /**
  * Creates an output Observable which sequentially emits all values from given
@@ -4834,18 +4833,18 @@ exports.concat = concat;
 
 /***/ }),
 
-/***/ 297:
+/***/ 299:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var FromObservable_1 = __webpack_require__(298);
+var FromObservable_1 = __webpack_require__(300);
 exports.from = FromObservable_1.FromObservable.create;
 //# sourceMappingURL=from.js.map
 
 /***/ }),
 
-/***/ 298:
+/***/ 300:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4859,12 +4858,12 @@ var isArray_1 = __webpack_require__(102);
 var isArrayLike_1 = __webpack_require__(201);
 var isPromise_1 = __webpack_require__(202);
 var PromiseObservable_1 = __webpack_require__(203);
-var IteratorObservable_1 = __webpack_require__(299);
-var ArrayObservable_1 = __webpack_require__(100);
-var ArrayLikeObservable_1 = __webpack_require__(300);
-var iterator_1 = __webpack_require__(199);
+var IteratorObservable_1 = __webpack_require__(301);
+var ArrayObservable_1 = __webpack_require__(195);
+var ArrayLikeObservable_1 = __webpack_require__(302);
+var iterator_1 = __webpack_require__(197);
 var Observable_1 = __webpack_require__(9);
-var observeOn_1 = __webpack_require__(301);
+var observeOn_1 = __webpack_require__(303);
 var observable_1 = __webpack_require__(103);
 /**
  * We need this JSDoc comment for affecting ESDoc.
@@ -4974,7 +4973,7 @@ exports.FromObservable = FromObservable;
 
 /***/ }),
 
-/***/ 299:
+/***/ 301:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4986,7 +4985,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var root_1 = __webpack_require__(29);
 var Observable_1 = __webpack_require__(9);
-var iterator_1 = __webpack_require__(199);
+var iterator_1 = __webpack_require__(197);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @extends {Ignored}
@@ -5144,7 +5143,7 @@ function sign(value) {
 
 /***/ }),
 
-/***/ 300:
+/***/ 302:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5155,7 +5154,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var Observable_1 = __webpack_require__(9);
-var ScalarObservable_1 = __webpack_require__(198);
+var ScalarObservable_1 = __webpack_require__(196);
 var EmptyObservable_1 = __webpack_require__(99);
 /**
  * We need this JSDoc comment for affecting ESDoc.
@@ -5221,7 +5220,7 @@ exports.ArrayLikeObservable = ArrayLikeObservable;
 
 /***/ }),
 
-/***/ 301:
+/***/ 303:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5231,8 +5230,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subscriber_1 = __webpack_require__(21);
-var Notification_1 = __webpack_require__(302);
+var Subscriber_1 = __webpack_require__(25);
+var Notification_1 = __webpack_require__(304);
 /**
  *
  * Re-emits all notifications from source Observable with specified scheduler.
@@ -5343,7 +5342,7 @@ exports.ObserveOnMessage = ObserveOnMessage;
 
 /***/ }),
 
-/***/ 302:
+/***/ 304:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5477,12 +5476,12 @@ exports.Notification = Notification;
 
 /***/ }),
 
-/***/ 303:
+/***/ 305:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
-var mergeAll_1 = __webpack_require__(200);
+var mergeAll_1 = __webpack_require__(199);
 /**
  * Converts a higher-order Observable into a first-order Observable by
  * concatenating the inner Observables in order.
@@ -5539,7 +5538,7 @@ exports.concatAll = concatAll;
 
 /***/ }),
 
-/***/ 304:
+/***/ 306:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5549,8 +5548,8 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subscriber_1 = __webpack_require__(21);
-var ArgumentOutOfRangeError_1 = __webpack_require__(305);
+var Subscriber_1 = __webpack_require__(25);
+var ArgumentOutOfRangeError_1 = __webpack_require__(307);
 var EmptyObservable_1 = __webpack_require__(99);
 /**
  * Emits only the first `count` values emitted by the source Observable.
@@ -5637,7 +5636,7 @@ var TakeSubscriber = (function (_super) {
 
 /***/ }),
 
-/***/ 305:
+/***/ 307:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";

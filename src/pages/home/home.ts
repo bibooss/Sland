@@ -1,3 +1,4 @@
+
 import { ConnectivityServiceProvider } from './../../providers/connectivity-service/connectivity-service';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
@@ -46,16 +47,22 @@ center:20
 ];
 
 course:any;
+onLine:boolean;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private conn: ConnectivityServiceProvider) {
 
 
+    this.onLine =this.conn.checkOnline();
   }
+
+
 
 ionViewDidLoad(){
 
-console.log("home loaded")
-this.conn.isOnline();
+alert("home loaded")
+
+
+
 
 }
 

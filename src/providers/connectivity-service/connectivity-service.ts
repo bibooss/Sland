@@ -1,9 +1,12 @@
+import { Platform } from 'ionic-angular';
 
 import { Injectable } from '@angular/core';
 //import { Network } from '@ionic-native/network';
 
 import { HttpClient } from '@angular/common/http';
 import {Network} from '@ionic-native/network'
+import 'rxjs/observable'
+import 'rxjs/operator/map'
 
 
 
@@ -16,30 +19,72 @@ import {Network} from '@ionic-native/network'
 @Injectable()
 export class ConnectivityServiceProvider {
 
-  constructor(public http: HttpClient, public net: Network) {
+  onDevice:boolean= false;
+
+  constructor(public http: HttpClient, public net: Network, public platform: Platform) {
 
 
+this.onDevice= this.platform.is('cordova');
 
   }
 
 
 
-  //check if device has internet
 
-isOnline(){
+checkOnline() {
 
- // console.log('Hello ConnectivityServiceProvider Provider');
+  if(this.onDevice)
+  {
 
-this.http.get('https://jsonplaceholder.typicode.com/posts/1').pipe(
+ this.net.onConnect().subscribe(()=>{
+
+    return true
+
+    alert('network connected!');
 
 
-).subscribe(result => {
-  console.log(result);
-});
+ });
 
+  }
+
+  else {
+
+console.log("not a cordova device")
+
+return navigator.onLine;
+
+  }
+
+}
+
+checkOffline(){
+
+  if(this.onDevice)
+  {
+
+ this.net.onDisconnect().subscribe(()=>{
+
+    return true
+
+    alert('network connected!');
+
+
+ });
+
+  }
+
+  else {
+
+console.log("not a cordova device")
+
+return !navigator.onLine;
+
+
+  }
 
 
 }
+
 
 
 
