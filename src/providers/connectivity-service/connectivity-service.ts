@@ -39,10 +39,6 @@ checkOnline() {
  this.net.onConnect().subscribe(()=>{
 
     return true
-
-    alert('network connected!');
-
-
  });
 
   }
@@ -65,8 +61,6 @@ checkOffline(){
  this.net.onDisconnect().subscribe(()=>{
 
     return true
-
-    alert('network connected!');
 
 
  });
